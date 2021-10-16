@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mikhail/projects_qt/cv1/src/Classes/Headers/Animal.hpp
+string
+-
+iostream
+-
+
+/home/mikhail/projects_qt/cv1/src/Classes/Headers/Cat.hpp
+Animal.hpp
+/home/mikhail/projects_qt/cv1/src/Classes/Headers/Animal.hpp
+
+/home/mikhail/projects_qt/cv1/src/Classes/Headers/Dog.hpp
+Animal.hpp
+/home/mikhail/projects_qt/cv1/src/Classes/Headers/Animal.hpp
+
+/home/mikhail/projects_qt/cv1/src/Classes/Headers/Pig.hpp
+Animal.hpp
+/home/mikhail/projects_qt/cv1/src/Classes/Headers/Animal.hpp
+
+/home/mikhail/projects_qt/cv1/src/main.cpp
+iostream
+-
+Classes/Headers/Cat.hpp
+/home/mikhail/projects_qt/cv1/src/Classes/Headers/Cat.hpp
+Classes/Headers/Pig.hpp
+/home/mikhail/projects_qt/cv1/src/Classes/Headers/Pig.hpp
+Classes/Headers/Dog.hpp
+/home/mikhail/projects_qt/cv1/src/Classes/Headers/Dog.hpp
+vector
+-
+
