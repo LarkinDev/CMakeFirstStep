@@ -1,0 +1,10 @@
+^C:\USERS\MIHAI\DESKTOP\CZ\С++\CV1_QT\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/mihai/Desktop/CZ/с++/cv1_qt/src -BC:/Users/mihai/Desktop/CZ/с++/cv1_qt/build_windows --check-stamp-file C:/Users/mihai/Desktop/CZ/с++/cv1_qt/build_windows/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

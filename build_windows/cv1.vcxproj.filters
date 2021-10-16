@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\mihai\Desktop\CZ\с++\cv1_qt\src\Classes\CPPs\Cat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mihai\Desktop\CZ\с++\cv1_qt\src\Classes\CPPs\Dog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mihai\Desktop\CZ\с++\cv1_qt\src\Classes\CPPs\Pig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mihai\Desktop\CZ\с++\cv1_qt\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\mihai\Desktop\CZ\с++\cv1_qt\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FAB7D769-1768-3E01-8775-BC084E83DCB1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\MIHAI\DESKTOP\CZ\С++\CV1_QT\BUILD_WINDOWS\CMAKEFILES\C33822E3D737B27D848CC3602D3C82CD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/mihai/Desktop/CZ/с++/cv1_qt/src -BC:/Users/mihai/Desktop/CZ/с++/cv1_qt/build_windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/mihai/Desktop/CZ/с++/cv1_qt/build_windows/cv1.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
