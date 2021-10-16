@@ -10,7 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.18.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.18.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.18.4/CMakeSystem.cmake"
-  "/home/mikhail/projects_qt/cv1/src/CMakeLists.txt"
+  "/home/mikhail/projects_qt/cv1_qt/src/CMakeLists.txt"
   "/usr/share/cmake-3.18/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake-3.18/Modules/CMakeCInformation.cmake"
@@ -116,5 +116,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/cv1Test.dir/DependInfo.cmake"
+  "CMakeFiles/cv1.dir/DependInfo.cmake"
   )

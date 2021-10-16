@@ -1,3 +1,0 @@
-/home/mikhail/projects_qt/cv1/build_linux/CMakeFiles/rebuild_cache.dir
-/home/mikhail/projects_qt/cv1/build_linux/CMakeFiles/edit_cache.dir
-/home/mikhail/projects_qt/cv1/build_linux/CMakeFiles/cv1Test.dir

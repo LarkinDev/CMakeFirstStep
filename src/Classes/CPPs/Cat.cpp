@@ -22,6 +22,4 @@ Cat::Cat()
 
 
 Cat::~Cat()
-{
-    std::cout<<"Cat destructor!\n";
-}
+{}

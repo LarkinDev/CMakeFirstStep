@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/mikhail/projects_qt/cv1/src/Classes/Headers
+CXX_INCLUDES = -I/home/mikhail/projects_qt/cv1_qt/src/Classes/Headers
 
 CXX_FLAGS = 
 

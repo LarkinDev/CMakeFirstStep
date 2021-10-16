@@ -22,6 +22,4 @@ Dog::Dog()
 
 
 Dog::~Dog()
-{
-    std::cout<<"Dog destructor!\n";
-}
+{}

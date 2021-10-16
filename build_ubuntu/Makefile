@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mikhail/projects_qt/cv1/src
+CMAKE_SOURCE_DIR = /home/mikhail/projects_qt/cv1_qt/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mikhail/projects_qt/cv1/build_linux
+CMAKE_BINARY_DIR = /home/mikhail/projects_qt/cv1_qt/build_ubuntu
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mikhail/projects_qt/cv1/build_linux/CMakeFiles /home/mikhail/projects_qt/cv1/build_linux//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mikhail/projects_qt/cv1_qt/build_ubuntu/CMakeFiles /home/mikhail/projects_qt/cv1_qt/build_ubuntu//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mikhail/projects_qt/cv1/build_linux/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mikhail/projects_qt/cv1_qt/build_ubuntu/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,17 +130,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cv1Test
+# Target rules for targets named cv1
 
 # Build rule for target.
-cv1Test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cv1Test
-.PHONY : cv1Test
+cv1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cv1
+.PHONY : cv1
 
 # fast build rule for target.
-cv1Test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1Test.dir/build.make CMakeFiles/cv1Test.dir/build
-.PHONY : cv1Test/fast
+cv1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1.dir/build.make CMakeFiles/cv1.dir/build
+.PHONY : cv1/fast
 
 Classes/CPPs/Cat.o: Classes/CPPs/Cat.cpp.o
 
@@ -148,7 +148,7 @@ Classes/CPPs/Cat.o: Classes/CPPs/Cat.cpp.o
 
 # target to build an object file
 Classes/CPPs/Cat.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1Test.dir/build.make CMakeFiles/cv1Test.dir/Classes/CPPs/Cat.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1.dir/build.make CMakeFiles/cv1.dir/Classes/CPPs/Cat.cpp.o
 .PHONY : Classes/CPPs/Cat.cpp.o
 
 Classes/CPPs/Cat.i: Classes/CPPs/Cat.cpp.i
@@ -157,7 +157,7 @@ Classes/CPPs/Cat.i: Classes/CPPs/Cat.cpp.i
 
 # target to preprocess a source file
 Classes/CPPs/Cat.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1Test.dir/build.make CMakeFiles/cv1Test.dir/Classes/CPPs/Cat.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1.dir/build.make CMakeFiles/cv1.dir/Classes/CPPs/Cat.cpp.i
 .PHONY : Classes/CPPs/Cat.cpp.i
 
 Classes/CPPs/Cat.s: Classes/CPPs/Cat.cpp.s
@@ -166,7 +166,7 @@ Classes/CPPs/Cat.s: Classes/CPPs/Cat.cpp.s
 
 # target to generate assembly for a file
 Classes/CPPs/Cat.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1Test.dir/build.make CMakeFiles/cv1Test.dir/Classes/CPPs/Cat.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1.dir/build.make CMakeFiles/cv1.dir/Classes/CPPs/Cat.cpp.s
 .PHONY : Classes/CPPs/Cat.cpp.s
 
 Classes/CPPs/Dog.o: Classes/CPPs/Dog.cpp.o
@@ -175,7 +175,7 @@ Classes/CPPs/Dog.o: Classes/CPPs/Dog.cpp.o
 
 # target to build an object file
 Classes/CPPs/Dog.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1Test.dir/build.make CMakeFiles/cv1Test.dir/Classes/CPPs/Dog.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1.dir/build.make CMakeFiles/cv1.dir/Classes/CPPs/Dog.cpp.o
 .PHONY : Classes/CPPs/Dog.cpp.o
 
 Classes/CPPs/Dog.i: Classes/CPPs/Dog.cpp.i
@@ -184,7 +184,7 @@ Classes/CPPs/Dog.i: Classes/CPPs/Dog.cpp.i
 
 # target to preprocess a source file
 Classes/CPPs/Dog.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1Test.dir/build.make CMakeFiles/cv1Test.dir/Classes/CPPs/Dog.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1.dir/build.make CMakeFiles/cv1.dir/Classes/CPPs/Dog.cpp.i
 .PHONY : Classes/CPPs/Dog.cpp.i
 
 Classes/CPPs/Dog.s: Classes/CPPs/Dog.cpp.s
@@ -193,7 +193,7 @@ Classes/CPPs/Dog.s: Classes/CPPs/Dog.cpp.s
 
 # target to generate assembly for a file
 Classes/CPPs/Dog.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1Test.dir/build.make CMakeFiles/cv1Test.dir/Classes/CPPs/Dog.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1.dir/build.make CMakeFiles/cv1.dir/Classes/CPPs/Dog.cpp.s
 .PHONY : Classes/CPPs/Dog.cpp.s
 
 Classes/CPPs/Pig.o: Classes/CPPs/Pig.cpp.o
@@ -202,7 +202,7 @@ Classes/CPPs/Pig.o: Classes/CPPs/Pig.cpp.o
 
 # target to build an object file
 Classes/CPPs/Pig.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1Test.dir/build.make CMakeFiles/cv1Test.dir/Classes/CPPs/Pig.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1.dir/build.make CMakeFiles/cv1.dir/Classes/CPPs/Pig.cpp.o
 .PHONY : Classes/CPPs/Pig.cpp.o
 
 Classes/CPPs/Pig.i: Classes/CPPs/Pig.cpp.i
@@ -211,7 +211,7 @@ Classes/CPPs/Pig.i: Classes/CPPs/Pig.cpp.i
 
 # target to preprocess a source file
 Classes/CPPs/Pig.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1Test.dir/build.make CMakeFiles/cv1Test.dir/Classes/CPPs/Pig.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1.dir/build.make CMakeFiles/cv1.dir/Classes/CPPs/Pig.cpp.i
 .PHONY : Classes/CPPs/Pig.cpp.i
 
 Classes/CPPs/Pig.s: Classes/CPPs/Pig.cpp.s
@@ -220,7 +220,7 @@ Classes/CPPs/Pig.s: Classes/CPPs/Pig.cpp.s
 
 # target to generate assembly for a file
 Classes/CPPs/Pig.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1Test.dir/build.make CMakeFiles/cv1Test.dir/Classes/CPPs/Pig.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1.dir/build.make CMakeFiles/cv1.dir/Classes/CPPs/Pig.cpp.s
 .PHONY : Classes/CPPs/Pig.cpp.s
 
 main.o: main.cpp.o
@@ -229,7 +229,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1Test.dir/build.make CMakeFiles/cv1Test.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1.dir/build.make CMakeFiles/cv1.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -238,7 +238,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1Test.dir/build.make CMakeFiles/cv1Test.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1.dir/build.make CMakeFiles/cv1.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -247,7 +247,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1Test.dir/build.make CMakeFiles/cv1Test.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cv1.dir/build.make CMakeFiles/cv1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -258,7 +258,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... cv1Test"
+	@echo "... cv1"
 	@echo "... Classes/CPPs/Cat.o"
 	@echo "... Classes/CPPs/Cat.i"
 	@echo "... Classes/CPPs/Cat.s"

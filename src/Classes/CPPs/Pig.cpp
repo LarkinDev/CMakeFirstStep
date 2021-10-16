@@ -18,6 +18,4 @@ Pig::Pig()
 }
 
 Pig::~Pig()
-{
-    std::cout<<"Pig destructor!\n";
-}
+{}

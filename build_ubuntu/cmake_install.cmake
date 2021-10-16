@@ -1,4 +1,4 @@
-# Install script for directory: /home/mikhail/projects_qt/cv1/src
+# Install script for directory: /home/mikhail/projects_qt/cv1_qt/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/mikhail/projects_qt/cv1/build_linux/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/mikhail/projects_qt/cv1_qt/build_ubuntu/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
